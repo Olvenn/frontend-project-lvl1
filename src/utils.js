@@ -4,13 +4,14 @@ export const getRandomNumber = (min, max) => Math.floor(Math.random() * (max - m
 
 export const makeCalculation = (a, b, operator) => {
   switch (operator) {
-    case '+' :
+    case '+':
       return a + b;
-    case '-' :
+    case '-':
       return a - b;
-    case '*' :
+    case '*':
       return a * b;
     default:
       return 'unknown operator';
+  };
 };
 
