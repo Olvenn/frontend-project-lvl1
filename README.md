@@ -5,6 +5,9 @@
 
 ### Game demonstrations
 
-##i brain-even game:
+## brain-even game:
 [![asciicast](https://asciinema.org/a/ZRRetVPNIlNQGrmCfjR14xtc7.png)](https://asciinema.org/a/ZRRetVPNIlNQGrmCfjR14xtc7)
+
+## brain-calc game:
+[![asciicast](https://asciinema.org/a/A7q4j836L0j0uTptN8JDO1Jvi.png)](https://asciiniema.org/a/A7q4j836L0j0uTptN8JDO1Jvi)
 
