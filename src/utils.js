@@ -17,3 +17,18 @@ export const makeCalculation = (a, b, operator) => {
 
 export const findDivisor = (a, b) => !b ? a : findDivisor(b, a % b);
 
+export const makeProgression = (length, step, firstNumber) => {
+  let progressionFull = [firstNumber];
+  const emptyIndex = getRandomNumber(0, length);
+
+  for (let i = 0; i < length; i += 1) {
+    progressionFull.push((progressionFull[progressionFull.length - 1]) + step);
+  }
+  
+  const emptyNumber = progressionFull[emptyIndex];
+  progressionFull[emptyIndex] = '..';
+  const progression = progressionFull.join(' ');
+  
+  return [progression, emptyNumber];
+};
+
