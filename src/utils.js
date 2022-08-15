@@ -15,3 +15,5 @@ export const makeCalculation = (a, b, operator) => {
   };
 };
 
+export const findDivisor = (a, b) => !b ? a : findDivisor(b, a % b);
+
