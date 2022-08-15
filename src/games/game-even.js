@@ -1,5 +1,5 @@
-import { checkOddOrEven, getRandomNumber } from './utils.js';
-import game from './index.js';
+import { checkOddOrEven, getRandomNumber } from '../utils.js';
+import game from '../index.js';
 
 const getGameData = () => {
   const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
@@ -11,3 +11,4 @@ const getGameData = () => {
 const gameEven = () => game(getGameData);
 
 export default gameEven;
+
