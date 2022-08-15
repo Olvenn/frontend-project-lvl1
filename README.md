@@ -15,5 +15,5 @@
 [![asciicast](https://asciinema.org/a/Y8z9sWRxrjLt9qcr1Tiz8L6De.png)](https://asciinema.org/a/Y8z9sWRxrjLt9qcr1Tiz8L6De)
 
 ## brain-progression game:
-[![asciicast](https://asciinema.org/a/q9C9mYYYCn0JHVsmxW1ZQwI5K.png)](https://asciinema.org/a/q9C9mYYYCn0JHVsmxW1ZQwI5K)
+[![asciicast](https://asciinema.org/a/qG1Ng70QTX4GtpQYxkmzho73a.png)](https://asciinema.org/a/qG1Ng70QTX4GtpQYxkmzho73a)
 
