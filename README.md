@@ -3,4 +3,5 @@
 <a href="https://codeclimate.com/github/Olvenn/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/52965ee60d6f622078b6/maintainability" /></a>
 <a href="https://codeclimate.com/github/Olvenn/frontend-project-lvl1/test_coverage"><img src="https://api.codeclimate.com/v1/badges/52965ee60d6f622078b6/test_coverage" /></a>
 
-[![asciicast](https://asciinema.org/a/SVScoIhABPH6A9pfUkAs0Psfpi.png)](https://asciinema.org/a/SVScoIhABPH6A9pfUkAs0Psfpi)
+### brain-even game:
+[![asciicast](https://asciinema.org/a/SVScoIhABPH6A9pfUkAs0Psfpi.png)](https://asciinema.org/a/SVScoIhABPH6A9pfUkAs0Psfpi))
