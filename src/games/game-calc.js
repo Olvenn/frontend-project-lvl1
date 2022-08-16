@@ -4,8 +4,10 @@ import game from '../index.js';
 const getGameData = () => {
   const rule = 'What is the result of the expression?';
   const operators = ['+', '-', '*'];
-  const firstNumber = getRandomNumber(1, 10);
-  const secondNumber = getRandomNumber(1, 10);
+  const MIN_NUMBER = 1;
+  const MAX_NUMBER = 10;
+  const firstNumber = getRandomNumber(MIN_NUMBER, MAX_NUMBER);
+  const secondNumber = getRandomNumber(MIN_NUMBER, MAX_NUMBER);
   const operator = operators[getRandomNumber(0, operators.length - 1)];
   const number = `${firstNumber} ${operator} ${secondNumber}`;
   const correctAnswer = makeCalculation(firstNumber, secondNumber, operator).toString();
