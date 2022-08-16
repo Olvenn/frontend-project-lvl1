@@ -14,4 +14,3 @@ const getGameData = () => {
 const gameGcd = () => game(getGameData);
 
 export default gameGcd;
-

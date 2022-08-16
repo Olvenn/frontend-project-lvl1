@@ -11,4 +11,3 @@ const getGameData = () => {
 const gameEven = () => game(getGameData);
 
 export default gameEven;
-
