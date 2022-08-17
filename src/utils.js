@@ -31,10 +31,10 @@ export const makeProgression = (length, step, firstNumber) => {
 };
 
 export const isPrimeNum = (num) => {
-  for (let i = 2; i < num / 2; i += 1) {
+  for (let i = 2; i < num / 2 + 1; i += 1) {
     if (num % i === 0) {
       return false;
     }
-  }
+  :}
   return true;
 };
