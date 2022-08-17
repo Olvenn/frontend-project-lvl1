@@ -5,21 +5,28 @@
 
 Brain Games — five console games. It is necessary to answer various questions in mathematics. After three correct answers, the game is over. In case of an incorrect answer, the game is over.
 
+## Installation:
+1. Cloning the repository.
+   git clone https://github.com/kirillmarkeyev/frontend-project-lvl1.git
+2. Installing dependencies in the project folder.
+   make install
+3. Устанавливаем проект.
+   sudo npm link
+4. To start the game, enter its name.
 
+## Game demonstrations
 
-### Game demonstrations
-
-## brain-even game:
+### brain-even game:
 [![asciicast](https://asciinema.org/a/ZRRetVPNIlNQGrmCfjR14xtc7.png)](https://asciinema.org/a/ZRRetVPNIlNQGrmCfjR14xtc7)
 
-## brain-calc game:
+### brain-calc game:
 [![asciicast](https://asciinema.org/a/A7q4j836L0j0uTptN8JDO1Jvi.png)](https://asciinema.org/a/A7q4j836L0j0uTptN8JDO1Jvi)
 
-## brain-gcd game:
+### brain-gcd game:
 [![asciicast](https://asciinema.org/a/Y8z9sWRxrjLt9qcr1Tiz8L6De.png)](https://asciinema.org/a/Y8z9sWRxrjLt9qcr1Tiz8L6De)
 
-## brain-progression game:
+### brain-progression game:
 [![asciicast](https://asciinema.org/a/qG1Ng70QTX4GtpQYxkmzho73a.png)](https://asciinema.org/a/qG1Ng70QTX4GtpQYxkmzho73a)
 
-## brain-prime game:
+### brain-prime game:
 [![asciicast](https://asciinema.org/a/sSsB47mkjrgcTIIke9LTPASai.png)](https://asciinema.org/a/sSsB47mkjrgcTIIke9LTPASai)
