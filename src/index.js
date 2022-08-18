@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-  
+
 const requestResponse = 'Your answer: ';
 const correct = 'Correct!';
 const numberOfMoves = 3;
@@ -18,8 +18,8 @@ const mainGameLogic = (getGameData) => {
     if (correctAnswer === answer) {
       console.log(correct);
     } else {
-    console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`);
-    return;
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`);
+      return;
     }
   }
   console.log(`Congratulations, ${name}!`);

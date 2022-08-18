@@ -11,7 +11,7 @@ const makeCalculation = (a, b, operator) => {
       return a * b;
     default:
       return 'unknown operator';
-   }
+  }
 };
 
 const getGameData = () => {
