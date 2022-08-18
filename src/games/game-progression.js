@@ -1,5 +1,18 @@
-import { makeProgression, getRandomNumber } from '../utils.js';
+import { getRandomNumber } from '../utils.js';
 import mainGameLogic from '../index.js';
+
+const makeProgression = (length, step, firstNumber) => {
+  const progressionFull = [firstNumber];
+  const emptyIndex = getRandomNumber(0, length);
+
+  for (let i = 0; i < length; i += 1) {
+    progressionFull.push((progressionFull[progressionFull.length - 1]) + step);
+  }
+  const emptyNumber = progressionFull[emptyIndex];
+  progressionFull[emptyIndex] = '..';
+  const progression = progressionFull.join(' ');
+  return [progression, emptyNumber];
+};
 
 const getGameData = () => {
   const rule = 'What number is missing in the progression?';

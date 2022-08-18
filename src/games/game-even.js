@@ -1,12 +1,14 @@
-import { checkOddOrEven, getRandomNumber } from '../utils.js';
+import { getRandomNumber } from '../utils.js';
 import mainGameLogic from '../index.js';
+
+const isCheckOddOrEven = (number) => number % 2 === 0;
 
 const getGameData = () => {
   const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
   const MIN_NUMBER = 1;
   const MAX_NUMBER = 1000;
   const number = getRandomNumber(MIN_NUMBER, MAX_NUMBER);
-  const correctAnswer = checkOddOrEven(number) ? 'yes' : 'no';
+  const correctAnswer = isCheckOddOrEven(number) ? 'yes' : 'no';
   return [rule, number, correctAnswer];
 };
 

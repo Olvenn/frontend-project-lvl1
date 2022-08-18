@@ -1,5 +1,18 @@
-import { getRandomNumber, makeCalculation } from '../utils.js';
+import { getRandomNumber } from '../utils.js';
 import mainGameLogic from '../index.js';
+
+const makeCalculation = (a, b, operator) => {
+  switch (operator) {
+    case '+':
+      return a + b;
+    case '-':
+      return a - b;
+    case '*':
+      return a * b;
+   default:
+     return 'unknown operator';
+   }
+};
 
 const getGameData = () => {
   const rule = 'What is the result of the expression?';
