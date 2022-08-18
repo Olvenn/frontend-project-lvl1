@@ -1,7 +1,8 @@
 import readlineSync from 'readline-sync';
-  const requestResponse = 'Your answer: ';
-  const correct = 'Correct!';
-  const numberOfMoves = 3;
+  
+const requestResponse = 'Your answer: ';
+const correct = 'Correct!';
+const numberOfMoves = 3;
 
 const mainGameLogic = (getGameData) => {
   console.log('Welcome to the Brain Games!');
@@ -17,7 +18,7 @@ const mainGameLogic = (getGameData) => {
     if (correctAnswer === answer) {
       console.log(correct);
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`);
+    console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${name}!`);
     return;
     }
   }

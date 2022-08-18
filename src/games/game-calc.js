@@ -9,8 +9,8 @@ const makeCalculation = (a, b, operator) => {
       return a - b;
     case '*':
       return a * b;
-   default:
-     return 'unknown operator';
+    default:
+      return 'unknown operator';
    }
 };
 
