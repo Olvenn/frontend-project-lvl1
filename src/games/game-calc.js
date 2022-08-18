@@ -1,5 +1,5 @@
 import { getRandomNumber, makeCalculation } from '../utils.js';
-import game from '../index.js';
+import mainGameLogic from '../index.js';
 
 const getGameData = () => {
   const rule = 'What is the result of the expression?';
@@ -14,6 +14,6 @@ const getGameData = () => {
   return [rule, number, correctAnswer];
 };
 
-const gameCalc = () => game(getGameData);
+const gameCalc = () => mainGameLogic(getGameData);
 
 export default gameCalc;

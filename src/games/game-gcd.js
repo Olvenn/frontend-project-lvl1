@@ -1,5 +1,5 @@
 import { getRandomNumber, findDivisor } from '../utils.js';
-import game from '../index.js';
+import mainGameLogic from '../index.js';
 
 const getGameData = () => {
   const rule = 'Find the greatest common divisor of given numbers.';
@@ -13,6 +13,6 @@ const getGameData = () => {
   return [rule, number, correctAnswer];
 };
 
-const gameGcd = () => game(getGameData);
+const gameGcd = () => mainGameLogic(getGameData);
 
 export default gameGcd;
