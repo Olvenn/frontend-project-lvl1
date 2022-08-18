@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../utils.js';
+import getRandomNumber from '../utils.js';
 import mainGameLogic from '../index.js';
 
 const makeCalculation = (a, b, operator) => {
