@@ -6,11 +6,11 @@ Brain Games — five console games. It is necessary to answer various questions 
 
 ## Installation:
 1. Cloning the repository:
-   git clone https://github.com/kirillmarkeyev/frontend-project-lvl1.git
+   git clone https://github.com/Olvenn/frontend-project-lvl1.git
 2. Installing dependencies in the project folder:
    npm install
 3. Installing the project:
-   sudo npm link
+   npm link
 4. To start the game, enter its name.
 
 ## Game demonstrations
