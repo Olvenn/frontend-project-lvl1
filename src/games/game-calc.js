@@ -14,7 +14,7 @@ const makeCalculation = (a, b, operator) => {
   }
 };
 
-const rule = 'What is the result of the expression?';
+const gameRule = 'What is the result of the expression?';
 const getGameData = () => {
   const operators = ['+', '-', '*'];
   const MIN_NUMBER = 1;
@@ -29,4 +29,4 @@ const getGameData = () => {
 
 const gameCalc = () => mainGameLogic(getGameData);
 
-export { gameCalc, rule };
+export { gameCalc, gameRule };
