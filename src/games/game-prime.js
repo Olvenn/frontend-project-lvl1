@@ -10,15 +10,13 @@ const isPrimeNum = (num) => {
   return true;
 };
 
+const gameRule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const getGameData = () => {
   const MIN_NUMBER = 3;
   const MAX_NUMBER = 50;
-  const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
   const number = getRandomNumber(MIN_NUMBER, MAX_NUMBER);
   const correctAnswer = isPrimeNum(number) ? 'yes' : 'no';
-  return [rule, number, correctAnswer];
+  return [number, correctAnswer];
 };
 
-const gamePrime = () => mainGameLogic(getGameData);
-
-export default gamePrime;
+export default () => mainGameLogic(getGameData, gameRule);

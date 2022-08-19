@@ -27,6 +27,4 @@ const getGameData = () => {
   return [number, correctAnswer];
 };
 
-const gameCalc = () => mainGameLogic(getGameData);
-
-export { gameCalc, gameRule };
+export default () => mainGameLogic(getGameData, gameRule);
